@@ -18,11 +18,8 @@ namespace EntityTriggerTest
                 };
                 db.Foos.Add(foo);
                 db.SaveChanges();
-                
-                foo.Password = "test3";
-                db.SaveChanges();
             }
-            Console.WriteLine("Success!");
+            Console.WriteLine("Done!");
         }
     }
 }
